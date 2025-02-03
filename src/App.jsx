@@ -1,4 +1,6 @@
 import React from 'react';
+import Left from './components/Left';
+import Right from './components/Right';
 
 function App() {
   return (
@@ -6,50 +8,9 @@ function App() {
       {/* Hero Section */}
       <div className="h-auto flex flex-col md:flex-row align-middle justify-center">
         {/* Left Section */}
-        <div className="md:basis-1/2 p-6 md:p-12 rounded-br-[200px] bg-gray-200">
-          <h2 className="text-5xl font-bold text-gray-800 mb-4 ml-20  mt-8 z-0	">
-            Bring <span className="text-green-700">GREEN</span> to<br/> your home and<br/> make you feel <span className="text-green-700">BETTER</span>
-          </h2><br/>
-          <p className="text-gray-600 ml-20 ">
-            Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Cursus imperdiet sed id<br/> elementum. Quam vel aliquam sit.
-          </p>
-          <br/>
-          
-          <div class = "flex flex-row ml-20 justify-around">
-            <div className = "basis-1/3">
-              <h3 className="font-bold">124K+ <br/> _______ </h3>
-              <p>Lorem ipsum<br/> consectetur</p>
-            </div>
-            <div className = "basis-1/3">
-              <h3 className="font-bold">126<br/> _______ </h3>
-              <hr />
-              <p>Lorem Ipsum<br/> consectetur</p>
-            </div>
-            <div className = "basis-1/3">
-              <h3 className="font-bold">78K<br/> _______ </h3>
-              <hr />
-              <p>Lorem Ipsum<br/> Consectetur</p>
-            </div>
-          </div>
-          <br/>
-          <div>
-            <button class = " bg-green-800 text-white px-8 py-2 rounded-full ml-20 text-xl pb-2">find your plant</button>
-          </div>
-        </div>
-
+          <Left/>
         {/* Right Section */}
-        <div className="md:basis-1/2 flex justify-center">
-          <div className="flex justify-center items-center">
-            <img
-              className="w-full h-auto"
-              src="https://s3-alpha-sig.figma.com/img/c548/8085/c9efa4a257bcf8aba598cb9deb7c7c9b?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ONr-7HwUgLaiVBH1JQP3aVo5xsdqK9hJJpOCKCRJhWcdlwh1KeueCAaA51XEmYX6J-uYg85r8SPKS0jxt~LgS4rR3TQUI36m0CIShEMI2T0qzEDTS-CUdJFktpuGtF9Hy30FL0YfOITlDJlEdJ9UB6uLXSwfPNOIXUsG82nSWz2uaikLyRiz3OOrrol4dYztX9-35CeLq0bA8ti0S455XbnxFrGkYf1hxnFyLMk0hPg0EFCOgF7vj8Psq3wNZzD~nv6toKxJDkFPYndAEzhUvjJ9wvRoBk9CLF81uyJmc1X9OEhczD~9lU4usV5BaMqKSFT7xua-cE6QJ1p4blrigA__"
-              alt="A conceptual representation of a green home project."/>
-              </div>
-          {/*circle image*/}
-          <div className="absolute -top-4 -right-4 bg-white rounded-full p-2 shadow-lg">
-                <img src= "" />
-          </div>
-        </div>
+          <Right/>
       </div>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 mx-8">
