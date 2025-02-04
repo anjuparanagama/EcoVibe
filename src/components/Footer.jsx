@@ -2,15 +2,23 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <div>
-            <div className = "flex justify-center items-center h-full  rounded-lg outline outline-offset-2  outline-1 px-6 py-3">
-                <img className="w-16 h-16 rounded mx-7" src =""/>
-                <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero.Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero</p>
-            
-                <img className="w-16 h-16 rounded mx-7" src = ""/>
-                <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero.Lorem ipsum dolor amet, consectetur adipiscingelit. Faucibus in libero</p>
+        <div className="grid grid-cols-1 m-12 md:grid-cols-2 gap-4 border rounded-lg border-gray-950 p-4">
+            <div className="p-4 border-b md:border-b-0 ">
+                <div className="flex items-start">
+                    <img className="w-16 h-16 rounded mr-4" src="images/rec1.png" alt="rec1" />
+                    <p class="text-base"> Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero. Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero.</p>
+                </div>
+            </div>
+
+            <div className="p-4">
+                <div className="flex items-start">
+                    <img
+                        className="w-16 h-16 rounded mr-4" src="images/rec2.png" alt="rec2" />
+                    <p class="text-base">
+                        Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero. Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero.
+                    </p>
+                </div>
             </div>
         </div>
-
-    )
+    );
 }
