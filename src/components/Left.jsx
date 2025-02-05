@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Left() {
     return (
-        <div className="md:basis-1/2 p-6 md:p-12 rounded-br-[200px] z-0 bg-gray-200">
+        <div className="md:basis-1/2 p-6 md:p-12 rounded-br-[200px] z-0 bg-[#F2F2F2]">
             <h2 className="text-5xl font-bold text-gray-800 mb-4 ml-5 mt-8 z-0">
                 Bring <span className="text-green-700">GREEN</span> to
                 <br /> your home and

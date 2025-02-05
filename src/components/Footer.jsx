@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <div className="grid grid-cols-1 m-12 md:grid-cols-2 gap-4 border rounded-lg border-gray-950 p-4">
+        <div className=" bg-white grid grid-cols-1 m-12 md:grid-cols-2 gap-4 border rounded-lg relative border-gray-950 p-4 z-1000">
             <div className="p-4 border-b md:border-b-0 ">
                 <div className="flex items-start">
                     <img className="w-16 h-16 rounded mr-4" src="images/rec1.png" alt="rec1" />

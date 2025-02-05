@@ -11,13 +11,13 @@ function App() {
       {/* Hero Section */}
       <div className="h-auto flex flex-col md:flex-row">
             {/* Left Section */}
-            <Left />
+            <Left className="z-10 " />
 
             {/* Right Section */}
-            <Right />
+            <Right className="z-20 " />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 mx-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 mx-12 ">
         <div>
         <FRectangle url = "/images/Ellipse1.png" text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus"/>
         </div>
@@ -35,7 +35,7 @@ function App() {
       <Mid/>
 
       {/* footer  Section */}
-      <Footer/>
+      <Footer className="relative" />
 
     </main>
   );
