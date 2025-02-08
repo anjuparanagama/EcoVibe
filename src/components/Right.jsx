@@ -1,15 +1,17 @@
 import React from "react";
+import Circle from './Cicle';
 
 export default function Right() {
     return (
-        <div className="relative"> 
-            <div className="md:basis-1/2 flex z-10">
-                <div className="flex justify-center items-center relative"> 
-                    <img className="w-[700px] [h-646px]" src="/images/left.png" alt="A conceptual representation of a green home project."/>
+        <div className="relative z-30">
+            <div className="flex w-11/12 md:mt-12 md:mr-5 md:basis-1/2">
+                <div className="flex justify-center items-center relative  z-50 w-full">
+                    <img
+                        className="w-[300px] sm:w-[500px] md:w-[600px] lg:w-[700px] h-auto max-h-[646px]"
+                        src="/images/right.png"
+                        alt="right image"/>
 
-                    <div className="absolute -top-4 -right-8 bg-white rounded-full p-2 pt-10 z-20"> 
-                        <img className="w-138px h-138px max-w-md:100px max-h-dvh:100px" src="/images/Font circle.png" alt="Circle overlay" />
-                    </div>
+                    <div><Circle/></div>
                 </div>
             </div>
         </div>

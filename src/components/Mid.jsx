@@ -1,27 +1,31 @@
 import React from "react";
+import Midcircle from './Midcircle';
+import Midcircleone from './Midcircleone.jsx';
 
 export default function Mid() {
     return (
-        <div className="bg-[#F4F4F4] mt-6  rounded-3xl w-full h-[650px] md:w-3/4 mx-auto flex flex-col md:flex-row">
+        <div className="bg-[#F4F4F4] md:mt-16 m-12  rounded-3xl flex flex-col md:flex-row  justify-between relative gap-8 z-100">
 
-            <div className="relative flex-1 mb-6 md:mb-0">
-                <img className="absolute top-0 left-0 w-[500px] h-[500px] z-20 rounded-3xl " src="images/Blob.png" />
-                <div className="relative z-30 mt-20 p-10 md:mt-32">
-                    <h2 className="text-5xl font-semibold py-3 text-gray-800">
+            <div className="relative flex-1 md:p-8 mb-4 md:mb-0">
+                <img className="absolute top-0 left-0 w-[350px] h-[350px] z-20 rounded-3xl " src="images/Blob.png" />
+                <div className="relative z-30 mt-4 p-10  md:mt-32">
+                    <h2 className="md:text-5xl text-3xl leading-[2.5rem] font-semibold py-3 text-gray-800">
                         Love your plants<br/>Take care of yourself
                     </h2>
-                    <p className="text-gray-600 mt-2 text-2xl">
+                    <p className="text-gray-600 mt-2 md:text-2xl font-bold sm:text-lg">
                         Lorem ipsum dolor sit amet, consectetur<br/>adipiscing elit. Faucibus in libero risus<br/> semper habitant arcu eget. Et integer.
                     </p>
-                    <button className="mt-4 px-6 py-3 bg-black text-white rounded-3xl hover:bg-slate-600">
+                    <button className="mt-4 px-6 py-3 md:mt-10 bg-black text-white rounded-3xl shadow-[20px_25px_50px_rgb(0,0,0,1)] hover:bg-slate-600">
                         Explore all plants
                     </button>
                 </div>
             </div>
 
-            <div className="relative flex-1 flex justify-center items-center">
-                <img className="absolute bottom-0 z-10 w-[400px] h-[500px]" src="images/shape.png" alt="Shape"/>
-                <img className="relative z-20 w-[350px] h-[600px]" src="images/main.png" alt="Main"/>
+            <div className="relative items-end flex-1 flex justify-center -mt-7 md:mt-20">
+            <div><Midcircle/></div>
+            <div><Midcircleone/></div>
+                <img className="absolute bottom-0 z-10  md:h-[700px] w-[550px] h-[300px] md:rounded-none rounded-3xl" src="images/shape.png" alt="Shape"/>
+                <img className="relative z-20 md:w-[450px] md:h-[750px] w-[300px] h-[400px]" src="images/mid.png" alt="Main"/>
             </div>
         </div>
     );

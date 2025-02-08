@@ -5,19 +5,20 @@ import FRectangle from './components/frectangle';
 import Mid from './components/Mid';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <main className="bg-white">
       {/* Hero Section */}
-      <div className="h-auto flex flex-col md:flex-row">
+      <div className="h-auto relative flex flex-col md:flex-row">
             {/* Left Section */}
-            <Left className="z-10 " />
+            <Left />
 
             {/* Right Section */}
-            <Right className="z-20 " />
+            <Right />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 mx-12 ">
+      <div className="grid grid-cols-1  md:grid-cols-3 sm:grid-cols-2 items-center gap-6 mt-16 mx-12 ">
         <div>
         <FRectangle url = "/images/Ellipse1.png" text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus"/>
         </div>

@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation:{
+        slowSpin:'spin 10s linear infinite',
+      }
+    },
   },
   plugins: [],
 }

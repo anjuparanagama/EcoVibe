@@ -2,46 +2,43 @@ import React from "react";
 
 export default function Left() {
     return (
-        <div className="md:basis-1/2 p-6 md:p-12 rounded-br-[200px] z-0 bg-[#F2F2F2]">
-            <h2 className="text-5xl font-bold text-gray-800 mb-4 ml-5 mt-8 z-0">
+        <div className="w-full md:basis-1/2 p-4 md:p-12 rounded-br-[200px] bg-[#F2F2F2] relative z-0">
+            <h2 className="text-4xl text-center md:text-left sm:text-4xl md:text-5xl font-bold text-gray-800 mb-4 sm:ml-5 mt-4">
                 Bring <span className="text-green-700">GREEN</span> to
                 <br /> your home and
                 <br /> make you feel <span className="text-green-700">BETTER</span>
             </h2>
-            <br />
-            <p className="text-gray-600 ml-8">
+
+            <p className="text-gray-600 text-center md:text-left sm:ml-6 text-base sm:text-lg md:text-xl mt-4">
                 Lorem ipsum dolor sit amet, consectetur
                 <br /> adipiscing elit. Cursus imperdiet sed id
                 <br /> elementum. Quam vel aliquam sit.
             </p>
-            <br />
 
-            <div className="flex flex-row ml-8 justify-around">
-                <div className="basis-1/3">
-                    <h3 className="font-bold">
+            <div className="flex flex-col text-center  md:text-left sm:flex-row sm:ml-6 mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
+                <div className="flex-1">
+                    <h3 className="font-bold text-lg sm:text-xl md:text-2xl">
                         124K+ <br /> _______
                     </h3>
-                    <p>Lorem ipsum<br /> consectetur</p>
+                    <p className="text-sm  sm:text-base">Lorem ipsum<br /> consectetur</p>
                 </div>
-                <div className="basis-1/3">
-                    <h3 className="font-bold">
-                        126<br /> _______
+                <div className="flex-1">
+                    <h3 className="font-bold text-lg sm:text-xl md:text-2xl">
+                        126<br /> ________
                     </h3>
-                    <hr />
-                    <p>Lorem Ipsum<br /> consectetur</p>
+                    <p className="text-sm sm:text-base">Lorem Ipsum<br /> consectetur</p>
                 </div>
-                <div className="basis-1/3">
-                    <h3 className="font-bold">
+                <div className="flex-1">
+                    <h3 className="font-bold text-lg sm:text-xl md:text-2xl">
                         78K<br /> _______
                     </h3>
-                    <hr />
-                    <p>Lorem Ipsum<br /> Consectetur</p>
+                    <p className="text-sm sm:text-base">Lorem Ipsum<br /> Consectetur</p>
                 </div>
             </div>
-            <br />
-            <div>
-                <button className="bg-green-800 text-white px-8 py-2 rounded-full ml-8 text-xl pb-2">
-                    find your plant
+
+            <div className="sm:ml-6 mt-6 mb-5 md:text-left text-center">
+                <button className="bg-[#437223] text-white px-10 py-2 sm:px-8 sm:py-3 rounded-full text-lg sm:text-xl hover:bg-green-900 transition-colors">
+                    Find Your Plant
                 </button>
             </div>
         </div>
