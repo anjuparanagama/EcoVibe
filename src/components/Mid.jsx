@@ -15,7 +15,7 @@ export default function Mid() {
                     <p className="text-[#252525] mt-2 md:text-2xl font-bold sm:text-lg">
                         Lorem ipsum dolor sit amet, consectetur<br/>adipiscing elit. Faucibus in libero risus<br/> semper habitant arcu eget. Et integer.
                     </p>
-                    <button className="mt-4 px-6 py-3 md:mt-10 bg-black text-white rounded-3xl shadow-[6px_6px_0px_#000)] hover:bg-slate-600">
+                    <button className="mt-4 px-6 py-3 md:mt-10 bg-[#333333] text-white rounded-3xl shadow-custom hover:bg-slate-600">
                         Explore all plants
                     </button>
                 </div>

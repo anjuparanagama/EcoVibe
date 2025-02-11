@@ -7,11 +7,15 @@ export default {
   theme: {
     extend: {
       screens: {
-        ls: "2000px", // Custom 'ls' size (between md and lg)
+        ls: "1530px",
+        ex: "2000px", 
       },
       animation:{
         slowSpin:'spin 10s linear infinite',
-      }
+      },
+      boxShadow: {
+        'custom': '6px 6px 0px #000',
+      },
     },
   },
   plugins: [],
