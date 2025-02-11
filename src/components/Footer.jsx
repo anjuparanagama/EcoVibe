@@ -6,14 +6,14 @@ export default function Footer() {
             <div className="p-4 border-b md:border-b-0 ">
                 <div className="flex md:items-start items-center justify-center ">
                     <img className="w-[120px] h-[120px] rounded mr-4 " src="images/rec1.png" alt="rec1" />
-                    <p class="md:pr-8 items-center justify-center md:text-lg text-sm"> Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero. Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero.</p>
+                    <p class="md:pr-8 items-center justify-center md:text-lg text-sm ls:text-2xl"> Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero. Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero.</p>
                 </div>
             </div>
 
             <div className="p-4">
                 <div className="flex md:items-start items-center justify-center  ">
                     <img className="w-[120px] h-[120px] md:items-start sm:justify-center rounded mr-4 " src="images/rec2.png" alt="rec2" />
-                    <p class="md:text-lg text-sm">
+                    <p class="md:text-lg text-sm ls:text-2xl">
                         Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero. Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero.
                     </p>
                 </div>

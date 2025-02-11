@@ -18,7 +18,7 @@ function App() {
             <Right />
       </div>
 
-      <div className="grid grid-cols-1  md:grid-cols-3 sm:grid-cols-2 items-center gap-6 mt-16 mx-12 ">
+      <div className="grid grid-cols-1  md:grid-cols-3 sm:grid-cols-2 items-center gap-6 mt-16 mx-12 ls:text-2xl">
         <div>
         <FRectangle url = "/images/Ellipse1.png" text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus"/>
         </div>
