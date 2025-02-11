@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <main className="bg-white">
+    <main className="bg-white max-w-[1530px] min-w-[450px] items-center justify-center m-auto">
       {/* Hero Section */}
       <div className="h-auto relative flex flex-col md:flex-row">
             {/* Left Section */}

@@ -12,17 +12,17 @@ export default function Mid() {
                     <h2 className="md:text-5xl text-3xl leading-[2.5rem] font-semibold py-3 text-gray-800">
                         Love your plants<br/>Take care of yourself
                     </h2>
-                    <p className="text-gray-600 mt-2 md:text-2xl font-bold sm:text-lg">
+                    <p className="text-[#252525] mt-2 md:text-2xl font-bold sm:text-lg">
                         Lorem ipsum dolor sit amet, consectetur<br/>adipiscing elit. Faucibus in libero risus<br/> semper habitant arcu eget. Et integer.
                     </p>
-                    <button className="mt-4 px-6 py-3 md:mt-10 bg-black text-white rounded-3xl shadow-[20px_25px_50px_rgb(0,0,0,1)] hover:bg-slate-600">
+                    <button className="mt-4 px-6 py-3 md:mt-10 bg-black text-white rounded-3xl shadow-[6px_6px_0px_#000)] hover:bg-slate-600">
                         Explore all plants
                     </button>
                 </div>
             </div>
 
             <div className="relative items-end flex-1 flex justify-center -mt-7 md:mt-20">
-            <div className="Absolute"><Midcircle/></div>
+            <div className="Absolute "><Midcircle/></div>
             <div className="Absolute"><Midcircleone/></div>
                 <img className="absolute bottom-0 z-10  md:h-[700px] w-[550px] h-[300px] md:rounded-none rounded-3xl" src="images/shape.png" alt="Shape"/>
                 <img className="relative z-20 md:w-[450px] md:h-[750px] w-[300px] h-[400px]" src="images/mid.png" alt="Main"/>
