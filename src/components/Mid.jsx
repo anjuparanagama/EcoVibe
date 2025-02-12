@@ -22,10 +22,10 @@ export default function Mid() {
             </div>
 
             <div className="relative items-end flex-1 flex justify-center -mt-7 md:mt-20">
-            <div className="Absolute "><Midcircle/></div>
-            <div className="Absolute"><Midcircleone/></div>
+            <div ><Midcircle/></div>
+            <div ><Midcircleone/></div>
                 <img className="absolute bottom-0 z-10  md:h-[700px] w-[550px] h-[300px] md:rounded-none rounded-3xl" src="images/shape.png" alt="Shape"/>
-                <img className="relative z-20 md:w-[450px] md:h-[750px] w-[300px] h-[400px]" src="images/mid.png" alt="Main"/>
+                <img className="relative  z-20 md:w-[450px] md:h-[750px] w-[300px] h-[400px]" src="images/mid.png" alt="Main"/>
             </div>
         </div>
     );

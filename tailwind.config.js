@@ -9,6 +9,7 @@ export default {
       screens: {
         ls: "1530px",
         ex: "2000px", 
+        bx: "1490px",
       },
       animation:{
         slowSpin:'spin 10s linear infinite',
