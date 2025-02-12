@@ -4,7 +4,7 @@ import Midcircleone from './Midcircleone.jsx';
 
 export default function Mid() {
     return (
-        <div className="bg-[#F4F4F4] md:mt-16 m-12  rounded-3xl flex flex-col md:flex-row  justify-between relative gap-8 z-100">
+        <div className="bg-[#F4F4F4] md:mt-16 m-12  rounded-3xl flex flex-col dx:flex-row  justify-between relative gap-8 z-100">
 
             <div className="relative flex-1 md:p-8 mb-4 md:mb-0">
                 <img className="absolute top-0 left-0 w-[350px] h-[350px] z-20 rounded-3xl " src="images/Blob.png" />

@@ -10,6 +10,8 @@ export default {
         ls: "1530px",
         ex: "2000px", 
         bx: "1490px",
+        cx: "1300px",
+        dx: "1300px",
       },
       animation:{
         slowSpin:'spin 10s linear infinite',
