@@ -9,16 +9,16 @@ export default function Mid() {
             <div className="relative flex-1 md:p-8 mb-4 md:mb-0">
                 <img className="absolute top-0 left-0 w-[350px] h-[350px] z-20 rounded-3xl " src="images/Blob.png" />
                 <div className="relative z-30 mt-4 p-10 dx:mt-32 md:mt-10">
-                    <h2 className="md:text-6xl text-3xl leading-[2.5rem] text-center dx:text-left font-semibold py-3 text-gray-800">
+                    <h2 className="md:text-[48px] text-3xl md:leading-[61px] text-center dx:text-left font-semibold py-3 text-gray-800">
                         Love your plants<br/>Take care of yourself
                     </h2>
-                    <p className="text-[#252525] mt-2 md:pt-4 md:text-3xl text-center dx:text-left font-serif sm:text-lg hidden sm:block">
+                    <p className="text-[#252525] mt-2 md:pt-4 md:text-2xl leading-[34px] text-center dx:text-left font-poppins sm:text-lg hidden sm:block">
                         Lorem ipsum dolor sit amet, consectetur<br/>adipiscing elit. Faucibus in libero risus<br/> semper habitant arcu eget. Et integer.
                     </p>
-                    <p className="text-[#252525] mt-2  text-center  font-serif sm:hidden block">
+                    <p className="text-[#252525] mt-2  text-center  font-poppins sm:hidden block">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer.
                     </p>
-                    <button className="mt-6 px-6 py-3 md:mt-10 bg-[#333333] md:text-2xl text-white rounded-3xl shadow-custom hover:bg-slate-600 flex mx-auto dx:mx-0 dx:self-start">
+                    <button className="mt-6 px-6 md:px-10 py-3 md:py-6 md:mt-10 bg-[#333333] md:text-2xl text-white rounded-[40px] shadow-custom hover:bg-slate-600 flex mx-auto dx:mx-0 dx:self-start">
                         Explore all plants
                     </button>
                 </div>

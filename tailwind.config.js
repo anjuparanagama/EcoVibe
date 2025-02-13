@@ -12,12 +12,16 @@ export default {
         bx: "1490px",
         cx: "1300px",
         dx: "1300px",
+        fx: "950px",
       },
       animation:{
         slowSpin:'spin 10s linear infinite',
       },
       boxShadow: {
-        'custom': '6px 6px 0px #000',
+        'custom': '8px 12px 0px #000',
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
