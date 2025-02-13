@@ -18,21 +18,24 @@ export default function Left() {
             <div className="flex flex-col text-center md:pt-2 dx:text-left sm:flex-row sm:ml-6 mt-4 sm:gap-1">
                 <div className="flex-1">
                     <h3 className="font-bold text-lg sm:text-xl md:text-2xl">
-                        124K+ <br /> _______
-                    </h3>
-                    <p className="text-sm sm:text-base">Lorem ipsum<br /> consectetur</p>
+                        124K+ </h3>
+                    <h3  className="font-bold -mt-4 "> ___________</h3>
+                    <p className="text-sm hidden sm:block sm:text-base">Lorem ipsum<br /> consectetur</p>
+                    <p className="text-sm sm:hidden block ">Lorem ipsum consectetur</p>
                 </div>
                 <div className="flex-1">
                     <h3 className="font-bold text-lg sm:text-xl md:text-2xl">
-                        126<br /> ________
-                    </h3>
-                    <p className="text-sm sm:text-base">Lorem Ipsum<br /> consectetur</p>
+                        126</h3>
+                    <h3  className="font-bold -mt-4 "> _______</h3>
+                    <p className="text-sm sm:text-base hidden sm:block">Lorem Ipsum<br /> consectetur</p>
+                    <p className="text-sm sm:hidden block ">Lorem ipsum consectetur</p>
                 </div>
                 <div className="flex-1">
-                    <h3 className="font-bold text-lg sm:text-xl md:text-2xl">
-                        78K<br /> _______
-                    </h3>
-                    <p className="text-sm sm:text-base">Lorem Ipsum<br /> Consectetur</p>
+                    <h3 className="font-bold text-lg sm:text-xl md:text-2xl ">
+                        78K</h3>
+                    <h3  className="font-bold -mt-4 "> ________</h3>
+                    <p className="text-sm sm:text-base hidden sm:block">Lorem Ipsum<br /> Consectetur</p>
+                    <p className="text-sm sm:hidden block ">Lorem ipsum consectetur</p>
                 </div>
             </div>
 
