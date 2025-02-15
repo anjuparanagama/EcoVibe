@@ -1,6 +1,6 @@
 import React from "react";
-import Midcircle from './Midcircle';
-import Midcircleone from './Midcircleone.jsx';
+import Midcircle from './Circles/Midcircle';
+import Midcircleone from './Circles/Midcircleone.jsx';
 
 export default function Mid() {
     return (
@@ -13,22 +13,22 @@ export default function Mid() {
                         Love your plants<br/>Take care of yourself
                     </h2>
                     <p className="text-[#252525] mt-2 md:pt-4 md:text-2xl leading-[34px] text-center dx:text-left font-poppins sm:text-lg hidden sm:block">
-                        Lorem ipsum dolor sit amet, consectetur<br/>adipiscing elit. Faucibus in libero risus<br/> semper habitant arcu eget. Et integer.
+                        Caring for plants is a rewarding experience.<br/>Explore our collection and bring nature<br/> closer to you
                     </p>
                     <p className="text-[#252525] mt-2  text-center  font-poppins sm:hidden block">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer.
+                        Caring for plants is a rewarding experience. Explore our collection and bring nature closer to you
                     </p>
-                    <button className="mt-6 px-6 md:px-10 py-3 md:py-6 md:mt-10 bg-[#333333] md:text-2xl text-white rounded-[40px] shadow-custom hover:bg-slate-600 flex mx-auto dx:mx-0 dx:self-start">
+                    <button className="mt-6 px-6 md:px-10 py-3 md:py-6 md:mt-10 bg-[#333333] md:text-2xl text-white rounded-[40px] shadow-custom hover:bg-slate-600 duration-500 flex mx-auto dx:mx-0 dx:self-start">
                         Explore all plants
                     </button>
                 </div>
             </div>
 
-            <div className="relative items-end flex-1 flex justify-center -mt-7 dx:mt-14">
+            <div className="relative items-end flex-1 flex justify-center mt-2 md:-mt-24 dx:mt-24">
             <div ><Midcircle/></div>
             <div ><Midcircleone/></div>
-                <img className="absolute bottom-0 z-10  md:h-[575px] w-[550px] md:w-[450px] h-[300px] md:rounded-none rounded-3xl" src="images/shape.png" alt="Shape"/>
-                <img className="relative  z-20 md:w-[400px] md:h-[675px] w-[300px] h-[400px]" src="images/mid.png" alt="Main"/>
+                <img className="relative bottom-0 z-10 -mt-2 md:mt-8 md:h-[600px] w-[500px] md:w-[450px] h-[300px] md:rounded-none rounded-3xl" src="images/shape.png" alt="Shape"/>
+                <img className="absolute -mb-3 md:mb-2 z-20 md:w-[530px] md:h-[530px] w-[300px] h-[300px]" src="images/m.png" alt="Main"/>
             </div>
         </div>
     );
