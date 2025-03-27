@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Footer() {
     return (
         <div className=" bg-white grid grid-cols-1 m-12 md:-mt-20 fx:grid-cols-2 gap-4 border rounded-3xl relative border-gray-950 pl-4 z-50">

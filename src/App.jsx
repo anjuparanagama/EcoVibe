@@ -4,6 +4,10 @@ import Right from './components/Right';
 import FRectangle from './components/frectangle';
 import Mid from './components/Mid';
 import Footer from './components/Footer';
+import Bupper from './components/Bottom/Upper.jsx';
+import BMiddle from './components/Bottom/Middle.jsx';
+import BFooter from './components/Bottom/Footer.jsx';
+import BFooterup from './components/Bottom/Footerb.jsx';
 
 function App() {
   return (
@@ -41,6 +45,14 @@ function App() {
 
       {/* footer  Section */}
       <Footer className="relative"/>
+
+      <Bupper />
+
+      <BMiddle />
+
+      <BFooter/>
+
+      <BFooterup/>
 
     </main>
   );
